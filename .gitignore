@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.editorconfig
+!.bash_profile
+!.bashrc
+!.bash_include
+!.bash_firstinstall
+!README.md

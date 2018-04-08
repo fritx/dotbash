@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# fixme: 容错检查 不要报错或警告 比如mkdir
+# todo: 变量配置 如是否有必要使用taobao源
+
+### brew https://brew.sh/
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+### desktop apps
+brew cask install iterm2 visual-studio-code db-browser-for-sqlite
+brew cask install chrome firefox youdaodict youdaonote wechatwebdevtools
+
+### utils
+brew install vim --with-override-system-vi
+brew install wget --with-iri
+brew install git # 2.15(built-in) => 2.17
+brew install git-lfs
+brew install imagemagick --with-webp
+brew install lua
+brew install rename
+brew install tree
+brew install youtube-dl
+
+### nvm, node, db
+brew install nvm yarn mongodb redis
+# brew services start redis
+
+# see `brew info nvm`
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+mkdir $NVM_DIR
+
+# nvm 使用淘宝镜像 https://www.chenky.com/archives/746
+export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
+
+nvm install 8.11.1 # becomes default
+nvm install 9.11.1
+
+npm i -g pm2 ava imagemin fanyi
+npm i -g element-ui at-ui antd
+
+export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
+npm i -g electron
