@@ -35,7 +35,7 @@ export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 nvm install 8.11.1 # becomes default
 nvm install 9.11.1
 
-npm i -g pm2 ava imagemin fanyi
+npm i -g pm2 ava imagemin fanyi jayin
 npm i -g element-ui at-ui antd
 
 export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"

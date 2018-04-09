@@ -22,6 +22,8 @@ alias o.='open .'
 ### utils
 alias ydl='youtube-dl'
 alias fy='fanyi'
+alias j='jayin'
+
 
 ### editors
 export EDITOR=code
@@ -80,8 +82,13 @@ alias prs="pm2 resurrect"
 
 # npm rush register
 function npm_reg() {
-  cd d
+  # ~/d is the directory where i develop
+  cd ~/d
   mkd "$1"
   npm init -y
+  # version `0.0.0` instead of `1.0.0`
+  cat package.json | \
+    j -to 'x.version = `0.0.0`, JSON.stringify(x, null, 2)+`\n`'  \
+    > package.json
   npm publish
 }
