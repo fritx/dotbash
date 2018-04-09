@@ -19,6 +19,7 @@ brew install lua
 brew install rename
 brew install tree
 brew install youtube-dl
+brew install trash-cli
 
 ### nvm, node, db
 brew install nvm yarn mongodb redis
@@ -34,9 +35,10 @@ export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 
 nvm install 8.11.1 # becomes default
 nvm install 9.11.1
+nvm use default
 
-npm i -g pm2 ava imagemin fanyi jayin
-npm i -g element-ui at-ui antd
+npm i -g nrm pm2 ava imagemin fanyi jayin
+npm i -g vue-cli element-ui at-ui antd
 
 export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 npm i -g electron
