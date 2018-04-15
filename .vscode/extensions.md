@@ -1,0 +1,7 @@
+- EditorConfig for VS Code
+- Vim
+- ESLint
+- TSLint for Visual Studio Code
+- Babel ES6/ES7
+- vue
+- vscode wxml

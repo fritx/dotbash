@@ -1,6 +1,9 @@
 *
 !.gitignore
 !.editorconfig
+!.vscode
+!.vscode/settings.json
+!.vscode/extensions.md
 !.bash_profile
 !.bashrc
 !.bash_include

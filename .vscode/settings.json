@@ -1,0 +1,18 @@
+{
+  "files.associations": {
+    // wechat mini programs
+    "*.wxss": "css",
+    "*.wxml": "html"
+  },
+
+  "emmet.includeLanguages": {
+    // vue, react
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // https://github.com/Microsoft/vscode/issues/14319
+  "eslint.autoFixOnSave": true
+}
