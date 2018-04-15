@@ -1,6 +1,8 @@
 *
 !.gitignore
 !.editorconfig
+!.eslintrc.js
+!package.json
 !.vscode
 !.vscode/settings.json
 !.vscode/extensions.md
