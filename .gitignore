@@ -4,5 +4,6 @@
 !.bash_profile
 !.bashrc
 !.bash_include
+!.bash_private_example
 !.bash_firstinstall
 !README.md

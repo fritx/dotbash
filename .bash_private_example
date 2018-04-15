@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export GITHUB_API_TOKEN='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+
+alias sshr='ssh root@xx.xx.xx.xx'

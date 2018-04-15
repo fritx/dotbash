@@ -7,8 +7,7 @@ export PS1='\W\$ ' # 简化前缀 如`xxx$`
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
-# todo: rename `personal to `private`
-for file in ~/.bash_include ~/.bash_personal
+for file in ~/.bash_include ~/.bash_private
 do
 	[ -r $file ] || touch $file
   . $file
