@@ -11,4 +11,5 @@
 !.bash_include
 !.bash_private_example
 !.bash_firstinstall
+!.bash_on_vps
 !README.md

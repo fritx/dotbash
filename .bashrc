@@ -23,6 +23,7 @@ alias o.='open .'
 alias ydl='youtube-dl'
 alias fy='fanyi'
 alias j='jayin'
+alias sshr="ssh root@$VPS_IP"
 
 # https://github.com/sindresorhus/trash-cli
 # https://github.com/andreafrancia/trash-cli

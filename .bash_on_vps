@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# renew acme certs
+# acme.sh --renew -d $VPS_DOMAIN --force

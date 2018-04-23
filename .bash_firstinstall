@@ -15,6 +15,7 @@ brew install wget --with-iri
 brew install git # 2.15(built-in) => 2.17
 brew install git-lfs
 brew install imagemagick --with-webp
+brew install ffmpeg --with-libass
 brew install lua
 brew install rename
 brew install tree
@@ -37,8 +38,9 @@ nvm install 8.11.1 # becomes default
 nvm install 9.11.1
 nvm use default
 
-npm i -g nrm pm2 ava imagemin fanyi jayin
-npm i -g vue-cli element-ui at-ui antd
+npm i -g nrm npx pm2 nodemon serve ava imagemin fanyi jayin
+npm i -g vue-cli vuepress
+# npm i -g element-ui at-ui antd
 
 export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 npm i -g electron

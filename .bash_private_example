@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 export GITHUB_API_TOKEN='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-alias sshr='ssh root@xx.xx.xx.xx'
+export VPS_DOMAIN='xxxxx.xx'
+export VPS_IP='xx.xx.xx.xx'

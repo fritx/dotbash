@@ -1,5 +1,7 @@
 - EditorConfig for VS Code
 - Vim
+- DotENV
+- gitignore
 - ESLint
 - TSLint for Visual Studio Code
 - Babel ES6/ES7
